@@ -1,0 +1,202 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Scrollable Overlay</title>
+        <meta name="description" content="scrollable overlay">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="styles/page-style.css">
+        <link rel="stylesheet" href="styles/scrollable.css">
+    </head>
+    <body>
+        <div class="overlay">
+            <div class="overlay-content">
+                <h1>Overlay Menu</h1>
+                <ul>
+                    <li>Menu item 1</li>
+                    <li>Menu item 2</li>
+                    <li>Menu item 3</li>
+                    <li>Menu item 4</li>
+                    <li>Menu item 5</li>
+                    <li>Menu item 6</li>
+                    <li>Menu item 7</li>
+                    <li>Menu item 8</li>
+                    <li>Menu item 9</li>
+                    <li>Menu item 10</li>
+                    <li>Menu item 11</li>
+                    <li>Menu item 12</li>
+                    <li>Menu item 13</li>
+                    <li>Menu item 14</li>
+                    <li>Menu item 15</li>
+                    <li>Menu item 16</li>
+                    <li>Menu item 17</li>
+                    <li>Menu item 18</li>
+                    <li>Menu item 19</li>
+                    <li>Menu item 20</li>
+                </ul>
+                <br><br><br>
+                <h1>Book Recommendation</h1>
+                <p>“I cannot remember the books I’ve read any more than the meals I have eaten; even so, they have made me.” – Ralph Waldo Emerson</p>
+                <div>
+                    <h2>
+                        <span><a target="_blank" href="http://www.amazon.com/Economics-One-Lesson-Shortest-Understand/dp/0517548232/" href="http://www.amazon.com/Economics-One-Lesson-Shortest-Understand/dp/0517548232/">Economics in One Lesson</a></span>
+                    </h2>
+                    <ul>
+                        <li>economic theories</li>
+                        <li>explain complicated matters with clean reasoning</li>
+                    </ul>
+                </div>
+                <div>
+                    <h2>
+                        <span><a target="_blank" href="http://www.amazon.com/Art-Learning-Journey-Optimal-Performance/dp/0743277465/" href="http://www.amazon.com/Art-Learning-Journey-Optimal-Performance/dp/0743277465/">Mindset</a>, </span><span><a target="_blank" href="http://www.amazon.com/Mastery-Robert-Greene/dp/014312417X/" href="http://www.amazon.com/Mastery-Robert-Greene/dp/014312417X/">Mastery</a>, </span><span><a target="_blank" href="http://www.amazon.com/Flow-Psychology-Experience-Mihaly-Csikszentmihalyi/dp/0061339202/" href="http://www.amazon.com/Flow-Psychology-Experience-Mihaly-Csikszentmihalyi/dp/0061339202/">Flow</a></span>
+                    </h2>
+                    <ul>
+                        <li>learning theories</li>
+                        <li>cognitive psychology</li>
+                    </ul>
+                </div>
+                <div>
+                    <h2>
+                        <span><a target="_blank" href="http://www.amazon.com/Hackers-Painters-Big-Ideas-Computer/dp/1449389554/" href="http://www.amazon.com/Hackers-Painters-Big-Ideas-Computer/dp/1449389554/">Hackers and Painters</a></span>
+                    </h2>
+                    <ul>
+                        <li>explain complicated matters with clean reasoning</li>
+                        <li>economic theories</li>
+                        <li>startup related</li>
+                        <li>programming related</li>
+                    </ul>
+                </div>
+                <div>
+                    <h2>
+                        <span><a target="_blank" href="http://www.amazon.com/Fooled-Randomness-Hidden-Markets-Incerto/dp/0812975219/" href="http://www.amazon.com/Fooled-Randomness-Hidden-Markets-Incerto/dp/0812975219/">Fooled by Randomness</a></span>
+                    </h2>
+                    <ul>
+                        <li>see the world through the lens of probability of events</li>
+                        <li>voice vs. noise</li>
+                        <li>uncertainties</li>
+                    </ul>
+                </div>
+                <div>
+                    <h2>
+                        <span><a target="_blank" href="http://www.amazon.com/Ideas-Opinions-Albert-Einstein/dp/0517884402/" href="http://www.amazon.com/Ideas-Opinions-Albert-Einstein/dp/0517884402/">Ideas and Opinions</a></span>
+                    </h2>
+                    <ul>
+                        <li>world view</li>
+                    </ul>
+                </div>
+                <div>
+                    <h2>
+                        <span><a target="_blank" href="http://www.amazon.com/Out-Control-Biology-Machines-Economic/dp/0201483408/" href="http://www.amazon.com/Out-Control-Biology-Machines-Economic/dp/0201483408/">Out of Control</a></span>
+                    </h2>
+                    <ul>
+                        <li>social systems</li>
+                        <li>economic systems</li>
+                        <li>technological development</li>
+                        <li>system/environment vs. individual</li>
+                        <li>future</li>
+                        <li>chaos</li>
+                    </ul>
+                </div>
+                <div>
+                    <h2>
+                        <span><a target="_blank" href="http://www.amazon.com/Abundance-Future-Better-Than-Think/dp/145161683X/" href="http://www.amazon.com/Abundance-Future-Better-Than-Think/dp/145161683X/">Abundance</a></span>
+                    </h2>
+                    <ul>
+                        <li>future</li>
+                        <li>economic systems</li>
+                        <li>technology development</li>
+                    </ul>
+                </div>
+                <br><br><br>
+                <a target="_blank" href="http://luxiyalu.com/book-recommendations/">More...</a>
+            </div>
+        </div>
+        <div class="background-content">
+            <h1><a target="_blank" href="http://luxiyalu.com/scrolling-on-overlay/">How to: Prevent Body From Scrolling When Overlay Is On<a></a></a></h1>
+            <section class="explanation">
+                <h2>Benefit of This Solution</h2>
+                <ul>
+                    <li>Pure CSS</li>
+                    <li>The content page won't skid to top with overlay on</li>
+                    <li>Works on Mobile Safari</li>
+                </ul>
+                <h2>HTML Structure</h2>
+                <pre>
+    &#60;div class=&#34;overlay&#34;&#62;
+        &#60;div class=&#34;overlay&#45;content&#34;&#62;&#60;/div&#62;
+    &#60;/div&#62;
+
+    &#60;div class=&#34;background&#45;content&#34;&#62;
+        lengthy content here
+    &#60;/div&#62;
+                </pre>
+                <h2>Styling</h2>
+                <pre>
+    html, body {
+        height: 100%;
+    }
+                
+    .overlay{
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        background&#45;color: rgba(0, 0, 0, 0.8);
+
+        .overlay&#45;content {
+            height: 100%;
+            overflow: scroll;
+        }
+    }
+    
+    .background&#45;content{
+        height: 100%;
+        overflow: auto;
+    }
+                </pre>
+                <h2>Compatibility</h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Chrome</th>
+                                <th>Safari</th>
+                                <th>Firefox</th>
+                                <th>IE</th>
+                                <th>Mobile Safari</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Yes (43.0.2357)</td>
+                                <td>Yes (8.0.6)</td>
+                                <td>Yes (38.0.5)</td>
+                                <td>Partial (!IE8)</td>
+                                <td>Yes (IOS 8.3)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+            <br><br><br>
+            <section class="lorum-ipsum">
+                <br><br>
+                <h1>The rest is Lorum Ipsum</h1>
+                <br>
+                <h3>The standard Lorem Ipsum passage, used since the 1500s</h3>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                <h3>Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC</h3>
+                <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
+                <h3>1914 translation by H. Rackham</h3>
+                <p>"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"</p>
+                <h3>Section 1.10.33 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC</h3>
+                <p>"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."</p>
+                <h3>1914 translation by H. Rackham</h3>
+                <p>"On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains."</p>
+            </section>
+        </div>
+        <md-button onclick="toggleOverlay()" class="md-raised md-primary">TOGGLE OVERLAY</md-button>
+        <script src="scripts/click.js"></script>
+    </body>
+</html>

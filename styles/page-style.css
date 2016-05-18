@@ -1,0 +1,73 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700);
+
+html, body {
+    margin: 0;
+    color: rgba(0,0,0,.87);
+    font-family: 'Roboto slab', serif;
+    -webkit-font-smoothing: antialiased;
+}
+a {
+    color: #000;
+}
+.overlay {
+    background-color: rgba(0, 0, 0, .8);
+    -webkit-transition: all .4s cubic-bezier(.25, .8, .25, 1);
+    transition: all .4s cubic-bezier(.25, .8, .25, 1);
+}
+.overlay a {
+    color: #fff;
+}
+.overlay h1 {
+    margin-top: 40px;
+}
+.overlay h2 {
+    margin-top: 50px;
+}
+.overlay.ng-hide {
+    left: -100%;
+}
+.overlay .overlay-content {
+    box-sizing: border-box;
+    padding: 0 20px 20px;
+    color: #fff;
+}
+section>p {
+    margin-bottom: 70px;
+    margin-left: 30px;
+}
+md-button {
+    position: fixed;
+    right: 18px;
+    bottom: 16px;
+    padding: 0px 12px;
+    border-radius: 3px;
+    background-color: rgb(63,81,181);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+    color: rgba(255,255,255,0.87);
+    font-size: 14px;
+    line-height: 36px;
+    cursor: pointer;
+    transition: box-shadow .4s cubic-bezier(.25,.8,.25,1),background-color .4s cubic-bezier(.25,.8,.25,1);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.background-content {
+    padding: 30px;
+}
+.background-content .lorum-ipsum {
+    color: rgba(0, 0, 0, .1);
+}
+.table-wrapper {
+    padding: 0 30px;
+}
+table {
+    width: 100%;
+    border: 2px solid grey;
+    text-align: center;
+}
+table th, table td {
+    padding: 10px;
+    border: 1px dashed grey;
+}

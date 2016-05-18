@@ -1,0 +1,46 @@
+html, body {
+    height: 100%;
+    
+    /*
+     * If omited, background page would keep on scrolling 
+     * after the overlay one reaches its limit.
+    */
+}
+
+.overlay {
+    position: fixed;
+    
+/*
+ * You can use either this combination,
+*/
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+/*
+ * Or the following one, depending on your need.
+ *
+ * In this case, I wanted the overlay to slouch back to the left,
+ * so it has to be of a fixed width.
+ *
+ * As long as overlay covers the whole page, it does the trick.
+ *
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+*/
+    
+}
+
+.overlay .overlay-content {
+    height: 100%;
+    overflow: scroll;
+}
+
+.background-content {
+    height: 100%;
+    overflow: auto;
+}
