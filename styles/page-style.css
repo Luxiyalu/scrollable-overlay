@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 
 html, body {
     margin: 0;
@@ -23,8 +24,17 @@ a {
 .overlay h2 {
     margin-top: 50px;
 }
-.overlay.ng-hide {
+.hide-overlay .overlay {
     left: -100%;
+}
+.fa-toggle-off {
+    display: none;
+}
+.hide-overlay .fa-toggle-off {
+    display: inline-block;
+}
+.hide-overlay .fa-toggle-on {
+    display: none;
 }
 .overlay .overlay-content {
     box-sizing: border-box;
@@ -35,10 +45,14 @@ section>p {
     margin-bottom: 70px;
     margin-left: 30px;
 }
-md-button {
+.buttons-container {
     position: fixed;
     right: 18px;
     bottom: 16px;
+}
+.button{
+    margin-left: 10px;
+    display: inline-block;
     padding: 0px 12px;
     border-radius: 3px;
     background-color: rgb(63,81,181);
@@ -52,9 +66,16 @@ md-button {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    text-decoration: none;
+}
+.button i {
+    font-size: 20px;
+    margin-right: 8px;
+    vertical-align: middle;
 }
 .background-content {
     padding: 30px;
+    box-sizing: border-box;
 }
 .background-content .lorum-ipsum {
     color: rgba(0, 0, 0, .1);

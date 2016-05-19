@@ -1,4 +1,4 @@
 function toggleOverlay () {
-    var overlay = document.querySelector(".overlay");
-    overlay.classList.toggle('ng-hide');
+    var overlay = document.querySelector("body");
+    overlay.classList.toggle('hide-overlay');
 }

@@ -43,4 +43,12 @@ html, body {
 .background-content {
     height: 100%;
     overflow: auto;
+    
+    /*
+     * If you want to use padding here, remember to add:
+     *
+     * box-sizing: border-box;
+     *
+     * otherwise the height of this container would be larger than 100%.
+    */
 }
